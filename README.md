@@ -1,18 +1,9 @@
-TypeScript Hello World Demo
+TypeScript "forceConsistentCasingInFileNames" Demo
 ===========================
+
+使用`forceConsistentCasingInFileNames=true`来保证引用的文件大小写是对的。
 
 ```
 npm install
 npm run demo
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-
